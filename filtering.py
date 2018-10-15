@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(1)
+# 0 for primary camera and 1 for secondary camera. Use it according to your use.
 while True:
     _,frame=cap.read()
     hsv=cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
