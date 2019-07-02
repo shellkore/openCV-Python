@@ -3,7 +3,7 @@
 These are all the mini-tasks i performed while learning image processing using openCV-python.
 I have omitted the very basic tasks like importing image or video and grasyscaling them.
 
-# Pre-requisites
+## Pre-requisites
 
 `pip3 install opencv-python`
 
@@ -11,7 +11,7 @@ I have omitted the very basic tasks like importing image or video and grasyscali
 
 `pip3 install matplotlib`
 
-# How to Run
+## How to Run
 
 `python3 file-name.py`
 
